@@ -19,6 +19,8 @@ cd livepeer-vsp-rtmp
 yarn
 ```
 
+Update configs in `config/default.json`
+
 Start Service
 ```
 yarn dev
