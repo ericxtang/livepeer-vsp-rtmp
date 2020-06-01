@@ -4,7 +4,7 @@
 
 ## Usage
 
-Install [NVM](https://github.com/nvm-sh/nvm)
+Install `nvm` with the following [instructions](https://github.com/nvm-sh/nvm#install--update-script)
 
 Use v12.17.0
 
