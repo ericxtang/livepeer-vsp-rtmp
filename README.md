@@ -4,29 +4,29 @@
 
 ## Usage
 
-Install `nvm` with the following [instructions](https://github.com/nvm-sh/nvm#install--update-script)
+1. Install `nvm` with the following [instructions](https://github.com/nvm-sh/nvm#install--update-script)
 
-Use v12.17.0
+2. Use nodejs v12.17.0
 
 ```
 nvm install v12.17.0
 nvm use v12.17.0
 ```
 
-Install Dependencies
+3. Install Dependencies
 ```
 cd livepeer-vsp-rtmp
 yarn
 ```
 
-Update configs in `config/default.json`
+4. Update configs in `config/default.json`
 
-Start Service
+5. Start Service
 ```
 yarn dev
 ```
 
-Running the production build on localhost. This will create a production build, then Node will serve the app on http://localhost:5000
+Note: Running the production build on localhost. This will create a production build, then Node will serve the app on http://localhost:5000
 
 ```
 NODE_ENV=production yarn dev:server
