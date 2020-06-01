@@ -16,6 +16,7 @@ nvm use v12.17.0
 Install Dependencies
 ```
 cd livepeer-vsp-rtmp
+yarn
 ```
 
 Start Service
