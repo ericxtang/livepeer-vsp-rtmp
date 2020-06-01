@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import logo from './logo.svg';
+import logo from './logo.png';
 
-// import React from 'react';
 import { Player } from 'video-react';
 
 import './App.css';
@@ -67,9 +66,6 @@ class App extends Component {
         </header>
         <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
-          <p>
-            <strong>Live Stream with Livepeer</strong>
-          </p>
           <button type="submit">Get New RTMP Ingest</button>
         </form>
         <p>Ingest URL: {this.state.platformIngestUrl}</p>

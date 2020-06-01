@@ -17,8 +17,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/api/new_ingest', (req, res) => {
-  console.log(req.body);
-  
   streamID = randomString()
   platformIngest = platformIngestBaseURL + "/" + streamID
   livepeerIngest = livepeerIngestBaseURL + "/" + livepeerAPIKey + "/" + livepeerUsername + "+" + streamID 
